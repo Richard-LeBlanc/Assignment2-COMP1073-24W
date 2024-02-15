@@ -1,0 +1,33 @@
+/* make the last div, our image container, a flex box to center the image nicely */
+div:last-of-type{
+    display: flex;
+    align-items: center;
+}
+/* Define the size of each image displayed to the screen */
+img{
+    width: 85%;
+    height: auto;
+    margin: 50px;
+}
+/* Keep the buttons simple, but a little more classy */
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    width: 165px;
+    height: 55px;
+    border-radius: 5%;
+    border-color: black;
+    margin: 12px;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+}
+/* Standardize the fonts on the page */
+p, label, input{
+    display: block;
+    padding: 5px;
+    margin: 5px;
+    font-size: 1.2em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
